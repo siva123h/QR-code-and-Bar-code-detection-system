@@ -1,0 +1,23 @@
+# ScanVision — Python dependencies
+# Used for backend processing, testing, and utilities
+
+# QR / Barcode decoding
+opencv-python==4.9.0.80
+pyzbar==0.1.9
+Pillow==10.2.0
+
+# Web server (optional Flask backend)
+flask==3.0.2
+flask-cors==4.0.0
+
+# Data handling
+numpy==1.26.4
+pandas==2.2.1
+
+# Testing
+pytest==8.1.1
+pytest-cov==5.0.0
+
+# Linting & formatting
+flake8==7.0.0
+black==24.3.0
